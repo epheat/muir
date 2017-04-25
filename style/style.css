@@ -40,6 +40,16 @@ h1 {
   margin-top: 63px;
 }
 
+.well a {
+  color: #d25e28;
+}
+
+.well a:hover {
+  text-decoration: none;
+  color: grey;
+  transition: .5s;
+}
+
 .page-content-begin {
   margin-top: 300px;
 }
@@ -85,6 +95,10 @@ h1 {
   float: right;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   list-style-type: none;
 }
@@ -109,6 +123,10 @@ li {
 .navlink:hover {
   box-shadow: 0px 1px 0px 0px #444;
   transition: 0.5s;
+}
+
+.navlink a:hover {
+  text-decoration: none;
 }
 
 .hero-image {
