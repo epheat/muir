@@ -9,7 +9,7 @@ h1 {
   left: 0px;
   width: 100%;
   text-align: center;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
   margin-top: 120px;
   z-index: 10;
   font-family: 'spies', sans-serif;
@@ -23,10 +23,11 @@ h1 {
   text-align: center;
   margin-top: 200px;
   width: 100%;
+  font-size: 12px;
 }
 
 .learn-more {
-  padding-top: 5px;
+  padding-top: 7px;
   color: white;
   height: 30px;
   width: 80px;
@@ -36,7 +37,14 @@ h1 {
   z-index: 5;
 }
 
+.learn-more:hover {
+  background-color: white;
+  color: #d25e28;
+  transition: 0.5s;
+}
+
 .well {
+  border: none;
   margin-top: 63px;
 }
 
@@ -90,6 +98,12 @@ h1 {
   background-color: #d25e28;
 }
 
+.donate-button:hover {
+  background-color: white;
+  color: #d25e28;
+  transition: 0.5s;
+}
+
 .navigation {
   padding-top: 4px;
   float: right;
@@ -117,6 +131,13 @@ li {
 @media only screen and (max-width: 767px) {
   .navlink {
     display: none;
+  }
+
+  .contact {
+    padding-top: 1px;
+    padding-left: 5%;
+    text-align: left;
+    font-size: 11px;
   }
 }
 
@@ -160,12 +181,15 @@ li {
 }
 
 .center {
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
 }
 .button-container {
   width: 100%;
   text-align: center;
 }
+
 .waiver-button {
   color: white;
   text-align: center;
@@ -174,6 +198,12 @@ li {
   margin: 0 auto;
   padding: 3px;
   background-color: #d25e28;
+}
+
+.waiver-button:hover {
+  background-color: #EEE;
+  color: #d25e28;
+  transition: 0.5s;
 }
 
 .feature {
@@ -215,6 +245,8 @@ li {
 }
 
 .footer {
+  padding-top: 10px;
+  padding-bottom: 20px;
   color: white;
   text-align: center;
   background-color: #3a5f30;
@@ -230,3 +262,10 @@ li {
   padding: 3px;
   background-color: #d25e28;
 }
+
+.footer-button:hover {
+  background-color: white;
+  color: #d25e28;
+  transition: 0.5s;
+}
+
